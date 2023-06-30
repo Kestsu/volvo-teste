@@ -38,6 +38,7 @@
 }
 
 .cta {
+  margin-top: 14px;
   border: none;
   background: none;
   cursor: pointer;
@@ -94,5 +95,11 @@
       position: relative;
       margin-top: 30px;
       box-shadow: none;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .infoLearnContainer {
+      height: 600px;
     }
   }
