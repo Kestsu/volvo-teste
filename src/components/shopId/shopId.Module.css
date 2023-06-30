@@ -13,8 +13,7 @@
 
 .shopIdSubContainer {
   display: flex;
-  /* flex-direction: row; */
-  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .infoCarShop {
@@ -43,8 +42,7 @@
 .infoShopContainer {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  /* justify-content: space-around; */
+  justify-content: space-around;
   padding: 50px;
   width: 500px;
   height: 300px;
@@ -107,6 +105,11 @@
   }
 
   @media screen and (max-width: 400px) {
+    .shopIdSubContainer{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
     .infoCarShop{
       margin:0;
     }
@@ -117,6 +120,7 @@
       padding-top: 0;
       height: 400px;
       width: 80%;
+      flex-wrap: wrap;
       box-shadow: none;
       background-color: transparent;
     }
