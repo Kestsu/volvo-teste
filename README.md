@@ -1,51 +1,80 @@
 # Volvo Cars (Global Online Digital)
 
-## Front-end coding test (React)
 
-Our team's designer has come up with a new design to show our latest and greatest recharge cars on the website.
+Esse projeto consiste na venda de carros da Volvo. Ele foi baseado no teste da Volvo. Para mais informações acesse o site: https://github.com/volvo-cars/god-frontend-code-test/tree/master
 
-Here is how the design look like for desktop and mobile (files are stored under `docs` folder)
 
 ### Desktop
 
-![ProductListDesktop](./docs/ProductList-Desktop.png)
+<details>
+    <summary><strong>Imagens do Descktop </strong></summary><br />
+  
+![Captura de Tela 2023-06-30 às 18 29 27](https://github.com/Kestsu/volvo-teste/assets/99990041/25cd0b69-a33f-4140-8a97-6372f56c6c03)
+
+
+![Captura de Tela 2023-06-30 às 18 31 41](https://github.com/Kestsu/volvo-teste/assets/99990041/bc0457df-4471-4fc3-8cd5-6a49c770bd10)
+
+![Captura de Tela 2023-06-30 às 18 32 10](https://github.com/Kestsu/volvo-teste/assets/99990041/2f3cb73f-d42d-4b64-a569-333fc84ab2aa)
+
+
+![Captura de Tela 2023-06-30 às 18 33 01](https://github.com/Kestsu/volvo-teste/assets/99990041/72101548-0b47-4a5a-8117-87665f159be7)
+</details>
+
+
 
 ### Mobile
 
-![ProductListDesktop](./docs/ProductList-Mobile.png)
 
-The data required to render the design is under `public/api/cars.json` folder. You need to fetch the data and render it in the browser. The data looks like this:
+<details>
+    <summary><strong>Imagens da aplicação </strong></summary><br />
+<img src="https://github.com/Kestsu/volvo-teste/assets/99990041/a024d12c-13ed-4b8d-9771-8377595887d2" width="400px">
+<img src="https://github.com/Kestsu/volvo-teste/assets/99990041/c0774f83-0f89-41f3-9c56-adb9d8b3604d" width="400px">
+<img src="https://github.com/Kestsu/volvo-teste/assets/99990041/28bf52de-99f5-4023-ab79-0cf6b88df419" width="400px">
+<img src="https://github.com/Kestsu/volvo-teste/assets/99990041/13d76e47-0b3d-4217-838f-2554f5dda7c9" width="400px">
 
-```json
-[
-  {
-    "id": "xc90-recharge",
-    "modelName": "XC90 Recharge",
-    "bodyType": "suv",
-    "modelType": "plug-in hybrid",
-    "imageUrl": "/images/xc90_recharge.jpg"
-  }
-]
+</details>
+
+
+
+
+
+O aplicativo tem:
+
+Tem acesso a tela inicial, do carrinho e da finalização da compra.
+
+## Conhecimento envolvido: 
+
+- React
+- React Hooks
+- Typescript
+- CSS
+- Interfaces
+- Next
+
+## Execução da aplicação localmente
+
+1. Faça o git clone na pasta local.
+
+```bash
+git clone git@github.com:Kestsu/volvo-teste.git
 ```
 
-The product owner is telling you that you can generate the links to the learn and shop pages of each car by concatating the `id` of the car to the learn (`/learn/`) and shop (`/shop/`) urls.
+2. Instale as dependências.
 
-Two extra SVG icons are also provided by our designer which are stored under `docs` folder.
+```bash
+npm install
+```
 
-## Requirements
+3. Rode o comando abaixo.
 
-- The project is bootstraped using [Next.js](https://nextjs.org/).
-- Browser support is modern ever-green browsers.
-- Implement this design using React and Typescript.
-- Accessibility is important.
-- Code Structure and reusablity is important.
+```bash
+npm run dev
+```
 
-## Bonus Points:
+4. Acesse o localhost.
 
-- If you use our design system component library, [VCC-UI](https://vcc-ui.vercel.app/)
-- If you add a filter bar on the top to filter cars by `bodyType`
+http://localhost:3000/
 
-## Submission
 
-Clone this repository to get started. Due to a number of reasons, not least privacy, you will be asked to zip your solution and mail it in, instead of submitting a pull-request. In order to maintain an unbiased reviewing process, please ensure to keep your name or other Personal Identifiable Information (PII) from the code.
+
 
