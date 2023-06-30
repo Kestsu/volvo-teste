@@ -1,0 +1,98 @@
+.learnIdContainer {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #e6e6e6;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.imageLearnCars {
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.infoLearnContainer {
+  padding: 40px;
+  width: 300px;
+  height: 500px;
+  background: rgb(236, 236, 236);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.infoLearnContainer h1 {
+    font-size: 30px;
+}
+
+.infoLearnContainer h4 {
+    color: gray;
+}
+
+.infoLearnContainer h2 {
+    color: #291717; 
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    width: 180px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cta {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.hoverUnderlineAnimation {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+.cta .svgLearnButton {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover .svgLearnButton {
+  transform: translateX(0);
+}
+
+.cta:active .svgLearnButton {
+  transform: scale(0.9);
+}
+
+.hoverUnderlineAnimation {
+  position: relative;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.hoverUnderlineAnimation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hoverUnderlineAnimation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .footerContainer {
+      position: relative;
+      margin-top: 30px;
+      box-shadow: none;
+    }
+  }

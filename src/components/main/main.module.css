@@ -1,0 +1,33 @@
+.carouselContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50spx;
+}
+
+.titleMain {
+  margin-top: 60px;
+  font-size: 35px;
+}
+.paginationContainer {
+  position: absolute;
+  top: 40em;
+  right: 50px;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.arrowButton {
+  width: 60px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.arrowButton:hover {
+  background-color: rgb(236, 236, 236);
+}
+

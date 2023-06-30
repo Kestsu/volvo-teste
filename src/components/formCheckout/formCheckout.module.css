@@ -1,0 +1,47 @@
+.containerInputs {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px 5px;
+  max-width: 700px;
+}
+
+.containerInputs input, .containerInputs select {
+  margin: 5px;
+  padding: 5px 0;
+}
+
+.containerInputs input:nth-child( 1 ), .containerInputs input:nth-child( 2 ) {
+  flex-basis: 23.9%;
+  flex-grow: 1;
+}
+
+
+.containerInputs input:nth-child( 3 ), .containerInputs input:nth-child( 4 ) {
+  flex-basis: 23.9%;
+  flex-grow: 1;
+}
+
+.containerInputs input:nth-child( 5 ), .containerInputs input:nth-child( 7 ) {
+  flex-basis: 23.9%;
+  flex-grow: 1;
+}
+
+.containerInputs input:nth-child( 7 ) {
+  flex-grow: 2;
+}
+
+.containerInputs input:nth-child( 6 ) {
+  flex-basis: 73.9%;
+  flex-grow: 2;
+}
+
+.containerInputs input:nth-child( 8 ), .containerInputs select {
+  flex-basis: 21%;
+  flex-grow: 1;
+}
+
+.containerInputs input:nth-child( 9 ) {
+  flex-basis: 30%;
+  flex-grow: 3;
+}

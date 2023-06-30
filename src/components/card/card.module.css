@@ -1,0 +1,85 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+  cursor: pointer;
+}
+
+.cardContainer h2 {
+  color: gray;
+  margin-bottom: -10px;
+  cursor: pointer;
+  font-family: "Courier New", monospace
+}
+
+
+.titleCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.titleCard h1 {
+  cursor: pointer;
+}
+
+.titleCard h3 {
+  color: gray;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: 300;
+  font-family: "Courier New", monospace
+}
+
+.imageCars{
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+.buttonContainer{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.buttonRedirecionarLearn, .buttonRedirecionarShop {
+  background-color: transparent;
+  color: rgb(47, 127, 188);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+.buttonRedirecionarLearn {
+margin-left: 20%;
+}
+
+.buttonRedirecionarShop {
+margin-right: 20%;
+}
+
+.buttonRedirecionar:hover {
+  color: black;
+}
+
+
+.hoverEffect:hover h1, .hoverEffect:hover h2, .hoverEffect:hover h3 {
+  color: rgb(47, 127, 188);
+}
+
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+}
+
+.hoverEffect:hover .imageCars {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+
+.imageCars {
+  transition: transform 0.3s;
+}
