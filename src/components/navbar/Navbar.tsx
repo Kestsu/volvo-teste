@@ -63,7 +63,7 @@ export const Navbar: React.FC = () => {
                             <div className={styles.formServiceTitle}>Agende Seu Serviço</div>
                             <input type="text" placeholder="Seu email" className={styles.formServiceInput}/>
                                 <textarea placeholder="Qual o problema?"></textarea>
-                                <button onClick={handleAgendar}>Submit</button>
+                                <button onClick={handleAgendar}>Enviar</button>
                         </form>
                     </div>
                 </div>
@@ -100,7 +100,7 @@ export const Navbar: React.FC = () => {
                                     <button type="button" className={styles.buttonNavMenu}>Comprar</button>
                                 </li>
                                 <li className={styles.navItem}>
-                                    <button type="button" className={styles.buttonNavMenu}>Serviços</button>
+                                    <button type="button" onClick={handleServices} className={styles.buttonNavMenu}>Serviços</button>
                                 </li>
                             </ul>
                         </section>
