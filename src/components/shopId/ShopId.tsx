@@ -15,7 +15,6 @@ export const ShopId: React.FC<ShopIdProps> = ({ id }) => {
     const [modelName, setmodelName] = useState("");
     const [modelType, setmodelType] = useState("");
     const [imageUrl, setimageUrl] = useState("");
-    const router = useRouter();
 
     useEffect(() => {
         const carregarDados = () => {

@@ -30,7 +30,7 @@
 .cardForm button:hover {
   background-color: #0056b3;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
   .cardForm {
     background-color: transparent;
     margin: 0;
