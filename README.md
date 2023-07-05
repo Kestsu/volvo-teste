@@ -3,6 +3,7 @@
 
 Esse projeto consiste na venda de carros da Volvo. Ele foi baseado no teste da Volvo. Para mais informações acesse o site: https://github.com/volvo-cars/god-frontend-code-test/tree/master
 
+Link do projeto rodando: https://volvo-teste-kestsu.vercel.app/
 
 ### Desktop
 
